@@ -46,7 +46,7 @@ def send_email():
         server.quit()
 
 # Schedule the script to run daily
-schedule.every().day.at("08:00").do(send_email)  # Adjust the time as needed
+schedule.every().day.at("09:00").do(send_email)  # Adjust the time as needed
 
 # Run the scheduler
 while True:
